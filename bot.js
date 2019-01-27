@@ -4,9 +4,6 @@ const client = new Discord.Client();
 const prefix = "^";
 
 
-const Canvas = require('canvas') // بكج
-const r1 = require('snekfetch'); //بكج
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
